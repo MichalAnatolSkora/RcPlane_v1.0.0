@@ -5,7 +5,7 @@ It was my start with RC models. I share with you all stuff that I've done in sco
 
 ## Getting Started
 
-
+To consider these sources, schemas and photos as valuable you have to already have some knowledge about programming in general and basic electronic.
 
 ## Used Software
 
