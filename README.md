@@ -19,5 +19,8 @@ Or
 
 ### Airplane
 
+* Arduino nano
+* Li-ion battery
+
 ### Controller
 
