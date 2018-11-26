@@ -1,6 +1,6 @@
 # Very basic RC Airplane
 
-![alt text](https://image.flaticon.com/icons/svg/65/65686.svg)
+<img src="https://image.flaticon.com/icons/svg/65/65686.svg" alt="My cool logo" style="height:100px;width:100px;" />
 
 One Paragraph of project description goes here
 
