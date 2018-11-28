@@ -7,10 +7,12 @@ RF24 radio(7, 8); // CE, CSN
 const byte address[6] = "00001";
 Servo servoMain;
 Servo servoMain2;
+Servo engine;
 int xMapped = -1;
 int yMapped = -1;
 unsigned long last_usage_of_servos;
 boolean attached = false;
+
 void setup()
 {
   Serial.begin(9600);
@@ -23,13 +25,12 @@ void setup()
 
   delay(1000);
   servoMain.attach(9);
-  servoMain2.attach(10);
-  delay(1000);
   servoMain.write(90);
   delay(1000);
+  servoMain.detach();
+  servoMain2.attach(10);
   servoMain2.write(90);
   delay(1000);
-  servoMain.detach();
   servoMain2.detach();
   last_usage_of_servos = millis();
 }
@@ -38,7 +39,7 @@ void loop()
 {
   if (radio.available())
   {
-    int text[2];
+    int text[3];
     radio.read(&text, sizeof(text));
 
     if (xMapped == text[0] && yMapped == text[1])
