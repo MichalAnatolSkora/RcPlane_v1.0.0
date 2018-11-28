@@ -21,8 +21,10 @@ Or
 
 * Arduino nano
 * Li-ion battery
-* nRF24L01 + PA LNA (with Capacitor)
+* nRF24L01 + PA LNA (with Capacitor 100 microfarad - visible on photos)
+* 
 
 ### Controller
 
-Let $\text{S}_1(N) = \sum_{p=1}^N \text{E}(p)$
+* Joystick (KY-023)
+* Slide Pot 
