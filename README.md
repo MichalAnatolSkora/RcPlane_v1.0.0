@@ -22,7 +22,9 @@ Or
 * Arduino nano
 * Li-ion battery
 * nRF24L01 + PA LNA (with Capacitor 100 microfarad - visible on photos)
-* 
+* Propeller with brushless motor (TBA params)
+* Motor controller (TBA params)
+* 2 x servo (SG-90)
 
 ### Controller
 
@@ -36,5 +38,3 @@ Or
 
 ### Airplane [TBA]
 ### Controller [TBA]
-
-## 
