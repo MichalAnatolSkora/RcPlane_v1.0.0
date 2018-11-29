@@ -31,3 +31,10 @@ Or
 * Slide Pot 
 * nRF24L01 + PA LNA (with Capacitor 100 microfarad - visible on photos)
 * Power bank with USB 2A output
+
+## Fritzing schemas
+
+### Airplane [TBA]
+### Controller [TBA]
+
+## 
