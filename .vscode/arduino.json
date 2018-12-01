@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:nano",
+    "port": "COM3",
+    "sketch": "airplane\\airplane.ino",
+    "configuration": "cpu=atmega328"
+}
